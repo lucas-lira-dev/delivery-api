@@ -4,7 +4,8 @@
   "description": "Backend application with Nodejs, using Prisma IO, Typescript, JWT and Express, to make deliveries",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --exit-child --transpile-only --ignore-watch node_modules src/server.ts"
   },
   "repository": {
     "type": "git",
